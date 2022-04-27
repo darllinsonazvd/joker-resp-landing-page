@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Joker | Responsive Landing Page</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <a href="#" class="logo"
+        ><img src="assets/logo.png" alt="joker logo"
+      /></a>
+      <div class="toggle">
+        <img src="assets/toggle.png" alt="toggle menu" />
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <div class="banner">
+      <div class="content">
+        <h2>Put on a <span>Happy</span> face</h2>
+        <p>
+          In Gotham City, mentally-troubled comedian Arthur Fleck is disregarded
+          and mistreated by society. He then embarks on a downward spiral of
+          revolution and bloody crime. This path brings him face-to-face with
+          his alter-ego: “The Joker”.
+        </p>
+        <a href="#" class="play" onclick="toggleVideoVisibility()"
+          ><img src="assets/play.png" alt="play button" />Watch trailer</a
+        >
+        <div class="slide"></div>
+        <ul class="sci">
+          <li>
+            <a href="#"
+              ><img src="assets/facebook.png" alt="facebook logo"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="assets/twitter.png" alt="twitter logo" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="assets/instagram.png" alt="instagram logo"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- TRAILER -->
+    <div class="trailer">
+      <video src="assets/trailer.mp4" controls="true"></video>
+      <img
+        src="assets/close.png"
+        alt=""
+        class="close"
+        onclick="toggleVideoVisibility()"
+      />
+    </div>
+
+    <!-- main.js -->
+    <script src="main.js"></script>
+  </body>
+</html>
