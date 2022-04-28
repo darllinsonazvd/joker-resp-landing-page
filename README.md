@@ -25,6 +25,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - JavaScript
 
+Acesso o site (clicando aqui)[https://darllinsonazvd.github.io/joker-resp-landing-page/]
+
 Bibliotecas
 
 - [Google Fonts](https://fonts.google.com/)
